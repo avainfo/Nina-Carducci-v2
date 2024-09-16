@@ -2,20 +2,34 @@
 <html lang="fr">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-	      rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
-	<script async src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-	<script async src="https://code.jquery.com/jquery-3.4.1.min.js"
-	        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script defer src="./assets/maugallery.js"></script>
-	<script defer src="./assets/scripts.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="./assets/maugallery.js"></script>
+	<script src="./assets/scripts.js"></script>
 	<title>Nina Carducci</title>
 	<meta name="description" content="Découvrez le portfolio de Nina Carducci, photographe professionnelle à Bordeaux. Spécialiste de la photographie de mariage, portrait et événementiel, Nina capture les moments précieux avec une touche artistique.">
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "Nina Carducci",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"addressCountry": "FR"
+			},
+			"telephone": "+33 5 56 67 78 89",
+			"openingHours": "Mo-Fr 10:00-19:00"
+		}
+	</script>
 </head>
 <body>
 <div class="top-header">
@@ -95,15 +109,12 @@
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
 			<img data-gallery-tag="Concert" class="gallery-item"
-			     loading="lazy"
 			     src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
 			     alt="..."/>
 			<img data-gallery-tag="Entreprises" class="gallery-item"
-			     loading="lazy"
 			     src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
 			     alt="..."/>
 			<img data-gallery-tag="Entreprises" class="gallery-item"
-			     loading="lazy"
 			     src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"
 			     alt="..."/>
 			<img data-gallery-tag="Mariages" class="gallery-item"
